@@ -1,0 +1,6 @@
+node_modules
+build
+*.js
+.env
+.DS_Store
+.aptos

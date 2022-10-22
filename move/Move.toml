@@ -1,0 +1,11 @@
+[package]
+name = "justjpeg"
+version = "0.0.1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "75f11057cd3d7b821a68217aa6ff7481033a276e" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "75f11057cd3d7b821a68217aa6ff7481033a276e" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "75f11057cd3d7b821a68217aa6ff7481033a276e" }
+
+[addresses]
+justjpeg = "0x8e9ba2fb83f1deb9a01157367d16042e73512c1b993510fed4de17d39198c4f9"
